@@ -21,7 +21,7 @@ Before running the installation commands, you should install **Anaconda** on you
 
 After installing Anaconda, follow the instructions in `installation_guide.sh` to create and configure the required environment.
 
-### Download the training data and trained models from *****
+### Download the training data and trained models from  (I checked some of the data files are not getting downloaded, I will fix this soon)*****
 gdown --folder "1qQW6Bs9j_TPTs-wwDtpIwtJQUR5GmY1L" -O ./data
 
 
