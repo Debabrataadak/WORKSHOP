@@ -14,7 +14,7 @@ class tf_planck2018_lite:
     TensorFlow version of Planck's plik-lite likelihood.
     Adapted from H. Prince and J. Dunkley's [planck-lite-py](https://github.com/heatherprince/planck-lite-py).
     If you use this likelihood please cite:
-        - CosmoPower release paper [Spurio Mancini et al. 2021](https://arxiv.org/abs/2106.03846)
+       
         - [Prince & Dunkley 2019](https://arxiv.org/abs/1909.05869)
         - [_Planck_ 2018 likelihood paper](https://arxiv.org/abs/1907.12875)
 
@@ -30,8 +30,8 @@ class tf_planck2018_lite:
         see [Prince & Dunkley 2019](https://arxiv.org/abs/1909.05869)
     units_factor : `float`, optional
         conversion factor (T_CMB)^2, default (2.7255e6)^2
-    tt_emu_model, te_emu_model, ee_emu_model : `cosmopower.cosmopower_NN` or `cosmopower.cosmopower_PCAplusNN`,
-        CosmoPower emulator models
+    tt_emu_model, te_emu_model, ee_emu_model :emulator models
+        
     '''
 
 # ===== INIT ==========
