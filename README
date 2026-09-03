@@ -1,0 +1,33 @@
+#!/bin/bash
+
+
+
+# PCA-Based Neural Network Emulator for Cosmological Power Spectra
+
+This project implements a **Principal Component Analysis (PCA)-based Neural Network (NN) approach** for emulating two-point correlation functions.
+
+We discuss how to apply this method to emulate **CMB angular power spectra** and **matter power spectra**. We then use the trained emulator to sample cosmological parameters using the **Planck likelihood code**, specifically the lighter version in which nuisance parameters have been marginalized over.
+
+## Installation Guide
+
+To install the required packages, **please pay careful attention to the package versions**.
+
+Run the commands provided in the `installation_guide.sh` file from the terminal.
+
+Before running the installation commands, you should install **Anaconda** on your computer:
+
+[Download Anaconda](https://www.anaconda.com/download)
+
+After installing Anaconda, follow the instructions in `installation_guide.sh` to create and configure the required environment.
+
+## Overview
+
+The workflow is:
+
+1. Generate cosmological training data.
+2. Perform PCA compression of the power spectra.
+3. Train a neural network to predict the PCA coefficients from cosmological parameters.
+4. Reconstruct the full power spectra from the predicted PCA coefficients.
+5. Validate the emulator against the original theoretical calculation.
+6. Use the trained emulator within the Planck likelihood to efficiently sample cosmological parameters.
+
