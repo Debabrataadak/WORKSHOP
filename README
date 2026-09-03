@@ -1,5 +1,6 @@
 #!/bin/bash
 
+I will keep updating this repository. Therefore I recommend to use latest data before we shart the handson. However, the environment setup will remain same.
 
 
 # PCA-Based Neural Network Emulator for Cosmological Power Spectra
@@ -19,6 +20,10 @@ Before running the installation commands, you should install **Anaconda** on you
 [Download Anaconda](https://www.anaconda.com/download)
 
 After installing Anaconda, follow the instructions in `installation_guide.sh` to create and configure the required environment.
+
+### Download the training data and trained models from *****
+gdown --folder "1qQW6Bs9j_TPTs-wwDtpIwtJQUR5GmY1L" -O ./data
+
 
 ## Overview
 
